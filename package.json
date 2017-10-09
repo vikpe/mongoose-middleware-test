@@ -1,0 +1,25 @@
+{
+  "name": "vikpe-mongoose-middleware-test",
+  "version": "1.0.0",
+  "author": "Viktor Persson",
+  "description": "Example of how to test mongoose middleware without a database connection and/or triggering a model method (save/update etc).",
+  "dependencies": {
+    "expect.js": "^0.3.1",
+    "lodash": "^4.17.4",
+    "mocha": "^4.0.1",
+    "mongoose": "^4.12.1",
+    "sinon": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikpe/mongoose-middleware-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vikpe/mongoose-middleware-test/issues"
+  },
+  "homepage": "https://github.com/vikpe/mongoose-middleware-test#readme"
+}
